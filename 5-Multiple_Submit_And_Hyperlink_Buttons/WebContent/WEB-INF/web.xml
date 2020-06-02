@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>5-Multiple_Submit_And_Hyperlink_Buttons</display-name>
+  <servlet>
+    <servlet-name>ml</servlet-name>
+    <servlet-class>servlet.ProcessServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ml</servlet-name>
+    <url-pattern>/pourl</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>process.html</welcome-file>
+  </welcome-file-list>
+</web-app>
